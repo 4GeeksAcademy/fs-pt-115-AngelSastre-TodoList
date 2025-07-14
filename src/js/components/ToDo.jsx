@@ -14,7 +14,7 @@ export const ToDo = () => {
             completada: false
         };
 
-        setLista([...lista, nuevaTarea]);
+        setLista([nuevaTarea ,...lista   ]);
         setTarea("");
     };
 
@@ -61,9 +61,9 @@ export const ToDo = () => {
                                 style={{textDecoration: item.completada ? "line-through" : "none"}}
                             >
                                 {item.texto}
-                                <div>
+                                <div className="">
                                 <button
-                                    className="btn btn-sm btn-danger"
+                                    className="btn btn-sm btn-danger me-2"
                                     onClick={() => eliminarTarea(index)}
                                 >
                                     ❌
