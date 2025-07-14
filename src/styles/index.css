@@ -9,3 +9,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/workspaces/fs-pt-115-AngelSastre-TodoList/src/img/Fondo1.png');
+    height: 100vh;
+    background-attachment: fixed;
+}
