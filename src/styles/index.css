@@ -16,3 +16,9 @@ body {
     height: 100vh;
     background-attachment: fixed;
 }
+
+.tarea-completada{
+    text-decoration-line: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 0.2rem;
+}
