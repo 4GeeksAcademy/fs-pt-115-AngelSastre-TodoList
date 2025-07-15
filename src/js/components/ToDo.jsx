@@ -43,7 +43,7 @@ export const ToDo = () => {
 	const modificarTarea = (index) => {
 		setModoEdicion(true);
 		setIndiceEditando(index);
-		setTarea(lista[index].texto);
+		setTarea(lista[index].tarea);
 	};
 
 	return (
